@@ -1,0 +1,21 @@
+.search-bar {
+  position: absolute;
+  z-index: 6;
+  top: 55%;
+  left: 40%;
+  width: 20%;
+  text-align: center;
+  font-size: 2rem;
+  outline: none;
+}
+.form-control {
+  background-color: transparent;
+  border-bottom: 1.5px solid black;
+  //   outline: none;
+  //   &:focus {
+  //     background-color: red;
+  //     border-bottom: red;
+  //     border-width: 0px;
+  //     border: transparent;
+  //   }
+}
