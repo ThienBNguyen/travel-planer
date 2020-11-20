@@ -1,0 +1,78 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.js .animate-box {
+  opacity: 0;
+}
+.aside-stretch {
+  background: #00bbf0;
+}
+.services {
+  padding: 7em 2em;
+}
+.services .icon {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #f7f7f7;
+  width: 120px;
+  height: 120px;
+  display: table;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.services .fas {
+  display: table-cell;
+  vertical-align: middle;
+  height: 120px;
+  font-size: 60px;
+  color: #00bbf0;
+}
+
+//CONSTRCUTED STYLESHEET
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
+  color: #000;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}

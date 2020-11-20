@@ -6,22 +6,21 @@ export default class NavBarView extends Component {
   render() {
     return (
       <Navbar bg="transparent" variant="light" fixed="top" expand="lg">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           {' '}
-          Travel <small>AnyWhere</small>
+          <NavLink
+            className="nav-link"
+            activeClassName="link-active"
+            exact="true"
+            to="/home"
+          >
+            Travel <small>AnyWhere</small>
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" mr-auto"></Nav>
           <Nav>
-            <NavLink
-              className="nav-link"
-              activeClassName="link-active"
-              exact="true"
-              to="/home"
-            >
-              home
-            </NavLink>
             <NavLink
               className="nav-link"
               activeClassName="link-active"

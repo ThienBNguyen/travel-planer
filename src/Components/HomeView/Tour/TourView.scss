@@ -1,0 +1,106 @@
+.colorlib-tour,
+.colorlib-wrap,
+#colorlib-contact,
+#colorlib-intro,
+#colorlib-testimony,
+#colorlib-blog,
+#colorlib-amenities,
+#colorlib-subscribe,
+#colorlib-footer {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 9em 0;
+  clear: both;
+}
+.colorlib-light-grey {
+  background: #fafafa;
+}
+.colorlib-heading {
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  //   font-weight: 100;
+}
+
+.tour-wrap {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.js .animate-box {
+  opacity: 0;
+}
+.tour-wrap .tour-entry {
+  width: 25%;
+  float: left;
+  position: relative;
+  height: 250px;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated-fast {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.tour-wrap .tour-entry .tour-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 250px;
+  display: block;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  &:hover {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+      }
+      100% {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  }
+}
+.f-tour-img,
+.room-img,
+.tour-img,
+.intro-img,
+.amenities-img,
+.blog-img,
+.hotel-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.tour-wrap .tour-entry .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  padding: 15px;
+}
