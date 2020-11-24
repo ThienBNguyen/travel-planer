@@ -1,0 +1,70 @@
+.f-tour {
+  width: 100%;
+  float: left;
+}
+.row-pb-md {
+  padding-bottom: 4em !important;
+}
+.f-tour .f-tour-img {
+  display: block;
+  height: 210px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-box-shadow: inset 0px -195px 142px -79px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: inset 0px -195px 142px -79px rgba(0, 0, 0, 0.49);
+  -ms-box-shadow: inset 0px -195px 142px -79px rgba(0, 0, 0, 0.49);
+  -o-box-shadow: inset 0px -195px 142px -79px rgba(0, 0, 0, 0.49);
+  box-shadow: inset 0px -195px 142px -79px rgba(0, 0, 0, 0.49);
+}
+.f-tour .f-tour-img .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+}
+.f-tour .f-tour-img .desc h3 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.f-tour .desc h3 {
+  text-transform: uppercase;
+}
+.f-tour .f-tour-img .desc .price {
+  color: #ffdd00;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.f-tour .f-tour-img .desc .price small {
+  color: #fff;
+}
+.f-tour .desc h4 {
+  text-transform: uppercase;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.f-tour .desc ul {
+  margin-bottom: 30px;
+}
+.f-tour .desc ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.f-tour .desc ul li a {
+  color: #999999;
+}
+.col-md-push-6 {
+  left: 50%;
+}
+.col-md-pull-6 {
+  right: 50%;
+}

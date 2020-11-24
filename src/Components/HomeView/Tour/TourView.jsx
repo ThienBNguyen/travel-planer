@@ -20,7 +20,7 @@ export default function TourView() {
         <div className="row">
           <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
             <h2>Popular Destination</h2>
-            <p>
+            <p className="heading-margin">
               We love to tell our successful far far away, behind the word
               mountains, far from the countries Vokalia and Consonantia, there
               live the blind texts.

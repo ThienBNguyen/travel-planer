@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
+  color: #000;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+#colorlib-hotel,
+.colorlib-tour,
+.colorlib-wrap,
+#colorlib-contact,
+#colorlib-intro,
+#colorlib-testimony,
+#colorlib-blog,
+#colorlib-amenities,
+#colorlib-subscribe,
+#colorlib-footer {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 9em 0;
+  clear: both;
+}
+p {
+  margin-bottom: 20px;
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text-center {
+  text-align: center;
+}
+.colorlib-heading {
+  margin-bottom: 5em;
+}
+.colorlib-heading h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #000;
+  position: relative;
+}

@@ -1,0 +1,41 @@
+.testimony {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+.heading-margin {
+  margin-bottom: 5em;
+}
+.testimony .img-user {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.testimony .user {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.testimony small {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #999999;
+}
+.testimony blockquote {
+  padding: 0;
+  margin: 0 0 20px 0;
+  border: none;
+}
+.animate-box {
+  margin: auto;
+}
