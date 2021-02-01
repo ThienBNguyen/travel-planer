@@ -29,7 +29,7 @@ export default function TourView() {
         </div>
       </div>
       <div className="tour-wrap">
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast ">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast ">
           <div
             onMouseOver={fadeInUp}
             className="tour-img"
@@ -51,7 +51,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour2})` }}
@@ -72,7 +72,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour3})` }}
@@ -93,7 +93,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour4})` }}
@@ -114,7 +114,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour5})` }}
@@ -135,7 +135,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour6})` }}
@@ -156,7 +156,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour7})` }}
@@ -177,7 +177,7 @@ export default function TourView() {
             <span className="price">$450</span>
           </span>
         </a>
-        <a href="#" className="tour-entry animate-box fadeInUp animated-fast">
+        <a href="!#" className="tour-entry animate-box fadeInUp animated-fast">
           <div
             className="tour-img"
             style={{ backgroundImage: `url(${tour8})` }}

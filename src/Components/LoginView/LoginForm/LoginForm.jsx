@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function LoginForm() {
   return (
-    <div class="container login-container">
+    <div className="container login-container">
       <div className="row ">
         <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <div className="login-card-body card card-signin my-5">

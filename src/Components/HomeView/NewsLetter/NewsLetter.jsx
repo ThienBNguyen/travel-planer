@@ -3,25 +3,25 @@ import React from 'react';
 export default function NewsLetter() {
   return (
     <div id="colorlib-subscribe">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+      <div className="overlay"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
             <h2>Sign Up for a Newsletter</h2>
             <p>
               Sign up for our mailing list to get latest updates and offers.
             </p>
-            <form class="form-inline qbstp-header-subscribe">
-              <div class="row">
-                <div class="col-md-12 col-md-offset-0">
-                  <div class="form-group">
+            <form className="form-inline qbstp-header-subscribe">
+              <div className="row">
+                <div className="col-md-12 col-md-offset-0">
+                  <div className="form-group">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" className="btn btn-primary">
                       Subscribe
                     </button>
                   </div>

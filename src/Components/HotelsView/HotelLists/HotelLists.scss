@@ -1,9 +1,10 @@
-.colorlib-heading h2 {
-  font-size: 34px;
-  margin-bottom: 20px;
-  line-height: 1.5;
-  color: #000;
-  position: relative;
+.wrap-division {
+  //   padding-right: 2em;
+  //   width: 100%;
+}
+
+.hotel-entry {
+  margin-bottom: 3em;
 }
 .hotel-entry .hotel-img {
   height: 280px;
@@ -11,11 +12,7 @@
   margin-bottom: 20px;
   position: relative;
 }
-// .hotel-entry {
-//   margin-bottom: 3em;
-//   margin-right: 15px;
-//   margin-left: 15px;
-// }
+
 .hotel-entry .hotel-img .price {
   position: absolute;
   bottom: 0;
@@ -24,4 +21,11 @@
   color: #fff;
   padding: 8px 12px;
   margin: 0;
+}
+.hotel-entry .hotel-img .price span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.hotel-display {
+  display: inline-block;
 }

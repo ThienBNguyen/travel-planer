@@ -16,7 +16,7 @@ export default function RecomendedView() {
     <div className="item">
       <div className="hotel-entry">
         <a
-          href="hotels.html"
+          href="!#"
           className="hotel-img"
           style={{ backgroundImage: `url(${hotel4})` }}
         >
@@ -37,7 +37,7 @@ export default function RecomendedView() {
             545 Reviews
           </p>
           <h3>
-            <a href="#">Hotel Edison</a>
+            <a href="!#">Hotel Edison</a>
           </h3>
           <span className="place">New York, USA</span>
           <p>
@@ -50,7 +50,7 @@ export default function RecomendedView() {
     <div className="item">
       <div className="hotel-entry">
         <a
-          href="hotels.html"
+          href="!#"
           className="hotel-img"
           style={{ backgroundImage: `url(${hotel1})` }}
         >
@@ -71,7 +71,7 @@ export default function RecomendedView() {
             545 Reviews
           </p>
           <h3>
-            <a href="#">Hotel Edison</a>
+            <a href="!#">Hotel Edison</a>
           </h3>
           <span className="place">New York, USA</span>
           <p>
@@ -84,7 +84,7 @@ export default function RecomendedView() {
     <div className="item">
       <div className="hotel-entry">
         <a
-          href="hotels.html"
+          href="!#"
           className="hotel-img"
           style={{ backgroundImage: `url(${hotel2})` }}
         >
@@ -105,7 +105,7 @@ export default function RecomendedView() {
             545 Reviews
           </p>
           <h3>
-            <a href="#">Hotel Edison</a>
+            <a href="!#">Hotel Edison</a>
           </h3>
           <span className="place">New York, USA</span>
           <p>
@@ -118,7 +118,7 @@ export default function RecomendedView() {
     <div className="item">
       <div className="hotel-entry">
         <a
-          href="hotels.html"
+          href="!#"
           className="hotel-img"
           style={{ backgroundImage: `url(${hotel3})` }}
         >
@@ -139,7 +139,7 @@ export default function RecomendedView() {
             545 Reviews
           </p>
           <h3>
-            <a href="#">Hotel Edison</a>
+            <a href="!#">Hotel Edison</a>
           </h3>
           <span className="place">New York, USA</span>
           <p>

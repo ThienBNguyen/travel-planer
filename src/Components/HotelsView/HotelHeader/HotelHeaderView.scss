@@ -1,0 +1,98 @@
+#colorlib-hero {
+  height: 650px;
+  width: 100%;
+  float: left;
+  z-index: 0;
+}
+#colorlib-hero .flexslider {
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+.flexslider {
+  margin: 0 0 60px;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+#colorlib-hero .flexslider .slides {
+  position: relative;
+  overflow: hidden;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#colorlib-hero .flexslider .slides li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 650px;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  opacity: 1;
+  display: block;
+  z-index: 2;
+}
+#colorlib-hero .flexslider .slides li .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+#colorlib-hero .flexslider .slider-text {
+  display: table;
+  opacity: 1;
+  height: 650px;
+  z-index: 9;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 650px;
+  padding: 2em;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Quicksand', Arial, sans-serif;
+  letter-spacing: 3px;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1,
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 300;
+}

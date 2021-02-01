@@ -6,6 +6,11 @@ body {
   color: #595959;
   background: #fff;
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -80,5 +85,17 @@ p {
   margin-bottom: 20px;
   line-height: 1.5;
   color: #000;
+  position: relative;
+}
+.f-tour-img,
+.room-img,
+.tour-img,
+.intro-img,
+.amenities-img,
+.blog-img,
+.hotel-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
 }

@@ -33,10 +33,10 @@ export default function PromotionView() {
                     the Semantics, a large language ocean.
                   </p>
                   <p>
-                    <a href="#" className="btn btn-primary">
+                    <a href="!#" className="btn btn-primary">
                       Book Now
                     </a>
-                    <a href="#" className="btn btn-primary btn-outline">
+                    <a href="!#" className="btn btn-primary btn-outline">
                       Read more
                     </a>
                   </p>
@@ -50,17 +50,15 @@ export default function PromotionView() {
                 className="video colorlib-video"
                 style={{ backgroundImage: `url(${imgbg2})` }}
               >
-                <a
-                  href="https://vimeo.com/channels/staffpicks/93951774"
-                  className="popup-vimeo"
-                >
+                <a href="!#" className="popup-vimeo">
                   <iframe
+                    title="youtube-video"
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/abfS_PZx5KU"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                   <i className="icon-video" />
                 </a>

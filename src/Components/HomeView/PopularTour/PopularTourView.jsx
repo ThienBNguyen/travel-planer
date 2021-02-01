@@ -31,7 +31,7 @@ export default function PopularTourView() {
                   <div className="row">
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour1})` }}
                       >
@@ -45,7 +45,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour2})` }}
                       >
@@ -59,7 +59,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour3})` }}
                       >
@@ -73,7 +73,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour4})` }}
                       >
@@ -108,54 +108,54 @@ export default function PopularTourView() {
                           <div className="col-md-4 col-sm-4 col-xs-4">
                             <ul>
                               <li>
-                                <a href="#">Rome</a>
+                                <a href="!#">Rome</a>
                               </li>
                               <li>
-                                <a href="#">Milan</a>
+                                <a href="!#">Milan</a>
                               </li>
                               <li>
-                                <a href="#">Genoa</a>
+                                <a href="!#">Genoa</a>
                               </li>
                               <li>
-                                <a href="#">Verona</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-md-4 col-sm-4 col-xs-4">
-                            <ul>
-                              <li>
-                                <a href="#">Venice</a>
-                              </li>
-                              <li>
-                                <a href="#">Bologna</a>
-                              </li>
-                              <li>
-                                <a href="#">Trieste</a>
-                              </li>
-                              <li>
-                                <a href="#">Florence</a>
+                                <a href="!#">Verona</a>
                               </li>
                             </ul>
                           </div>
                           <div className="col-md-4 col-sm-4 col-xs-4">
                             <ul>
                               <li>
-                                <a href="#">Palermo</a>
+                                <a href="!#">Venice</a>
                               </li>
                               <li>
-                                <a href="#">Siena</a>
+                                <a href="!#">Bologna</a>
                               </li>
                               <li>
-                                <a href="#">San Marino</a>
+                                <a href="!#">Trieste</a>
                               </li>
                               <li>
-                                <a href="#">Naples</a>
+                                <a href="!#">Florence</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                              <li>
+                                <a href="!#">Palermo</a>
+                              </li>
+                              <li>
+                                <a href="!#">Siena</a>
+                              </li>
+                              <li>
+                                <a href="!#">San Marino</a>
+                              </li>
+                              <li>
+                                <a href="!#">Naples</a>
                               </li>
                             </ul>
                           </div>
                         </div>
                         <p>
-                          <a href="tours.html" className="btn btn-primary">
+                          <a href="!#" className="btn btn-primary">
                             View All Places
                           </a>
                         </p>
@@ -171,7 +171,7 @@ export default function PopularTourView() {
                   <div className="row flow-right">
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour5})` }}
                       >
@@ -185,7 +185,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour6})` }}
                       >
@@ -199,7 +199,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour7})` }}
                       >
@@ -213,7 +213,7 @@ export default function PopularTourView() {
                     </div>
                     <div className="col-md-6 animate-box">
                       <a
-                        href="tours.html"
+                        href="!#"
                         className="f-tour-img"
                         style={{ backgroundImage: `url(${tour8})` }}
                       >
@@ -248,54 +248,54 @@ export default function PopularTourView() {
                           <div className="col-md-4 col-sm-4 col-xs-4">
                             <ul>
                               <li>
-                                <a href="#">Rome</a>
+                                <a href="!#">Rome</a>
                               </li>
                               <li>
-                                <a href="#">Milan</a>
+                                <a href="!#">Milan</a>
                               </li>
                               <li>
-                                <a href="#">Genoa</a>
+                                <a href="!#">Genoa</a>
                               </li>
                               <li>
-                                <a href="#">Verona</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-md-4 col-sm-4 col-xs-4">
-                            <ul>
-                              <li>
-                                <a href="#">Venice</a>
-                              </li>
-                              <li>
-                                <a href="#">Bologna</a>
-                              </li>
-                              <li>
-                                <a href="#">Trieste</a>
-                              </li>
-                              <li>
-                                <a href="#">Florence</a>
+                                <a href="!#">Verona</a>
                               </li>
                             </ul>
                           </div>
                           <div className="col-md-4 col-sm-4 col-xs-4">
                             <ul>
                               <li>
-                                <a href="#">Palermo</a>
+                                <a href="!#">Venice</a>
                               </li>
                               <li>
-                                <a href="#">Siena</a>
+                                <a href="!#">Bologna</a>
                               </li>
                               <li>
-                                <a href="#">San Marino</a>
+                                <a href="!#">Trieste</a>
                               </li>
                               <li>
-                                <a href="#">Naples</a>
+                                <a href="!#">Florence</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                              <li>
+                                <a href="!#">Palermo</a>
+                              </li>
+                              <li>
+                                <a href="!#">Siena</a>
+                              </li>
+                              <li>
+                                <a href="!#">San Marino</a>
+                              </li>
+                              <li>
+                                <a href="!#">Naples</a>
                               </li>
                             </ul>
                           </div>
                         </div>
                         <p>
-                          <a href="tours.html" className="btn btn-primary">
+                          <a href="!#" className="btn btn-primary">
                             View All Places
                           </a>
                         </p>
